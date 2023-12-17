@@ -16,7 +16,7 @@ export const predictImage = async (req, res) => {
 
  const requestToAWS=axios({
    method: 'post',
-   url: 'https://tl7wwquahb.execute-api.us-east-2.amazonaws.com/production',
+   url: 'https://skix2saga2.execute-api.us-east-1.amazonaws.com/production/predict-pneumonia',
    headers: {
      'Content-type': 'application/x-image'
    },
